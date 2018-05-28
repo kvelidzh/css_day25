@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	height: 100%;
+	border: 130px solid #fff;
+}
+
+.big {	
+   padding: 2px;
+   margin: 10px auto;
+   font-family:  'Lato', serif;
+   text-align: left;
+   font-size: 2em;
+   color: #5c5c5c
+}
+
+p {
+	font-family: 'Lato', serif;
+}
+
+p::first-letter{
+   font-size: 50px;
+   color: #000;
+   font-family: "PlayfairDisplay";
+}
+
+label{
+	font-family: "PlayfairDisplay";
+	font-size: 4.2rem;
+	color: #171717;
+}
+
+.page{
+	margin: 0 auto;
+	padding: 2em;
+	box-shadow: 0 0 40px;
+}
+
+.sintx {
+	font-family: "Lato";
+	font-size: 1.5em;
+}
+
+.flame {
+	text-align: center;
+	width: 10em;
+	height: 2em;
+	border: 2px solid #eaa258;
+	color: #eaa258;
+}
