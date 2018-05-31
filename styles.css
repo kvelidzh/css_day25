@@ -5,26 +5,56 @@
 html{
 	font-size: 10px;
 	height: 100%;
-	border: 130px solid #fff;
+	/* border: 130px solid #fff; */
+}
+
+main {
+	padding: 120px 120px;
+	box-shadow: 0 0 150px 0;
+	margin: 0 auto;
+	margin: 130px 100px;
+}	
+
+h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 42px;
+	font-weight: normal;
+	margin: 0 auto; 
+	margin-top: auto;
+	/* padding: 2em 1.3em; */
+
 }
 
 .big {	
-   padding: 2px;
-   margin: 10px auto;
+   /* padding: 3em; */
+  /*  margin: 10px auto; */
    font-family:  'Lato', serif;
    text-align: left;
-   font-size: 2em;
-   color: #5c5c5c
+   font-size: 18px;
+   color: #5c5c5c;
+   /* padding: 1em 2em;  */
+ /*   margin: auto; */
+   font-weight: lighter;
+   line-height: 2em;
+}
+
+.container {
+	background-size: auto;
+	height: 60px;
+	margin: 0 auto;
+	
+		/* width: 60px; */
 }
 
 p {
 	font-family: 'Lato', serif;
+	
 }
 
 p::first-letter{
-   font-size: 50px;
+   font-size: 5em;
    color: #000;
-   font-family: "PlayfairDisplay";
+   font-family: PlayfairDisplay, serif;
 }
 
 label{
@@ -35,19 +65,31 @@ label{
 
 .page{
 	margin: 0 auto;
-	padding: 2em;
-	box-shadow: 0 0 40px;
+	/* padding: 2em; */
 }
 
 .sintx {
 	font-family: "Lato";
 	font-size: 1.5em;
+	color: #7a7a7a;
 }
 
-.flame {
-	text-align: center;
-	width: 10em;
-	height: 2em;
-	border: 2px solid #eaa258;
-	color: #eaa258;
+a {
+    display: block;
+    width: 26rem;
+    height: 6.8rem;
+    text-align: center;
+    line-height: 6.8rem;
+    border: 1px solid #eaa258;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: #eaa258;
+    text-decoration: none;
+}
+
+ a:hover,
+ a:focus {
+	background: #eaa258;
+	color: #fff;
+	transition: 0.2s all ease-in;
 }
